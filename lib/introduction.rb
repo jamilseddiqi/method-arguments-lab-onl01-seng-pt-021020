@@ -3,7 +3,7 @@ def introduction(name)
 end
 introduction("Jamil")
 
-# def introduction(name, language)
-#   puts "Hi, my name is #{name} and I am learning to program in #{language}"
-# end
-# introduction("Jamil", "Ruby")
+def introduction_language(name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}"
+end
+introduction("Jamil", "Ruby")
